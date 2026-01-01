@@ -1,13 +1,47 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my_portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Portfolio Iteration - Lo-Fi Tech 1</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&amp;family=VT323&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#ff9900", // Retro amber/orange often used in terminals
+              "background-light": "#f0f0f0", // Very light grey, almost off-white like the first image
+              "background-dark": "#1a1a1a", // Deep charcoal/black like the last image
+              "text-light": "#333333",
+              "text-dark": "#e5e5e5",
+              "panel-light": "#e0e0e0",
+              "panel-dark": "#2a2a2a",
+            },
+            fontFamily: {
+              display: ['"VT323"', 'monospace'], // Pixelated display font
+              body: ['"Space Mono"', 'monospace'], // Readable tech monospace
+            },
+            borderRadius: {
+              DEFAULT: "2px", // Very slight rounding, mostly sharp corners for this aesthetic
+            },
+            backgroundImage: {
+               'grid-light': 'linear-gradient(to right, #e5e5e5 1px, transparent 1px), linear-gradient(to bottom, #e5e5e5 1px, transparent 1px)',
+               'grid-dark': 'linear-gradient(to right, #333 1px, transparent 1px), linear-gradient(to bottom, #333 1px, transparent 1px)',
+            },
+            backgroundSize: {
+                'grid': '40px 40px',
+            }
+          },
+        },
+      };
+    </script>
+  <script type="module" crossorigin src="/my_portfolio/assets/index-D-SsCJ3c.js"></script>
+  <link rel="stylesheet" crossorigin href="/my_portfolio/assets/index-yg5CswCh.css">
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark font-body min-h-screen transition-colors duration-300 relative overflow-x-hidden selection:bg-primary selection:text-white">
+<div id="root"></div>
+</body></html>
