@@ -1,47 +1,40 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Portfolio Iteration - Lo-Fi Tech 1</title>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&amp;family=VT323&amp;display=swap" rel="stylesheet"/>
-<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
-<script>
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            colors: {
-              primary: "#ff9900", // Retro amber/orange often used in terminals
-              "background-light": "#f0f0f0", // Very light grey, almost off-white like the first image
-              "background-dark": "#1a1a1a", // Deep charcoal/black like the last image
-              "text-light": "#333333",
-              "text-dark": "#e5e5e5",
-              "panel-light": "#e0e0e0",
-              "panel-dark": "#2a2a2a",
-            },
-            fontFamily: {
-              display: ['"VT323"', 'monospace'], // Pixelated display font
-              body: ['"Space Mono"', 'monospace'], // Readable tech monospace
-            },
-            borderRadius: {
-              DEFAULT: "2px", // Very slight rounding, mostly sharp corners for this aesthetic
-            },
-            backgroundImage: {
-               'grid-light': 'linear-gradient(to right, #e5e5e5 1px, transparent 1px), linear-gradient(to bottom, #e5e5e5 1px, transparent 1px)',
-               'grid-dark': 'linear-gradient(to right, #333 1px, transparent 1px), linear-gradient(to bottom, #333 1px, transparent 1px)',
-            },
-            backgroundSize: {
-                'grid': '40px 40px',
-            }
-          },
-        },
-      };
-    </script>
-  <script type="module" crossorigin src="/assets/index-B28AuN4N.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-yg5CswCh.css">
-</head>
-<body class="bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark font-body min-h-screen transition-colors duration-300 relative overflow-x-hidden selection:bg-primary selection:text-white">
-<div id="root"></div>
-</body></html>
+<!DOCTYPE html><html lang="en" class="scroll-smooth"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><!-- Fonts (moved from index.html) --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=VT323&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_astro/aboutme.BvZPLEWW.css"></head> <body class="bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark font-body min-h-screen transition-colors duration-300 relative overflow-x-hidden selection:bg-primary selection:text-white"> <div class="fixed inset-0 z-0 bg-grid-light dark:bg-grid-dark bg-grid pointer-events-none opacity-50"></div> <div class="scanlines"></div> <div class="relative z-10 max-w-6xl mx-auto p-4 md:p-8 lg:p-12 border-x border-text-light/10 dark:border-text-dark/10 min-h-screen flex flex-col"> <header class="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 md:mb-8 border-b border-text-light dark:border-text-dark pb-6"> <div class="mb-6 md:mb-0"> <a href="/" class="group inline-block"> <h1 class="font-display text-5xl md:text-4xl lg:text-7xl uppercase tracking-tighter leading-none mb-2 hover:text-primary transition-colors">
+AVINASH<span class="text-primary blink">_</span>ALDHAPATI
+</h1></a> <div class="flex items-center gap-4 text-xs md:text-sm uppercase tracking-widest opacity-70"> <span>Sys.Ver 24.0</span> <span>//</span> <span>Bangalore, IN</span> </div> </div> <nav class="flex flex-row w-full justify-around items-end gap-2 font-display text-xl md:text-2xl md:flex-col md:w-auto"> <a class="group flex items-center gap-2 hover:text-primary transition-colors" href="/work"> <span class="opacity-0 group-hover:opacity-100 transition-opacity">&gt;</span> WORK
+</a> <a class="group flex items-center gap-2 hover:text-primary transition-colors" href="/aboutme"> <span class="opacity-0 group-hover:opacity-100 transition-opacity">&gt;</span> ABOUT
+</a> <a class="group flex items-center gap-2 hover:text-primary transition-colors" href="/blogs"> <span class="opacity-0 group-hover:opacity-100 transition-opacity">&gt;</span> BLOG
+</a> <a class="group flex items-center gap-2 hover:text-primary transition-colors" href="/contact"> <span class="opacity-0 group-hover:opacity-100 transition-opacity">&gt;</span> CONTACT
+</a> <button class="mt-4 border border-current px-2 py-0.5 text-sm hover:bg-text-light hover:text-background-light dark:hover:bg-text-dark dark:hover:text-background-dark transition-all" onclick="document.documentElement.classList.toggle('dark')">
+LIGHT/DARK
+</button> </nav> </header>  <section class="mb-16 grid grid-cols-1 md:grid-cols-12 gap-8 items-start"> <div class="md:col-span-2 hidden md:block text-xs uppercase tracking-widest opacity-50 pt-2 sticky top-8"> <div>Index 01</div> <div class="mt-2">Manifesto</div> </div> <div class="md:col-span-7"> <p class="font-display text-2xl md:text-4xl leading-tight mb-8">
+SOFTWARE ENGINEER SPECIALIZING IN <span class="bg-text-light text-background-light dark:bg-text-dark dark:text-background-dark px-1">HUMAN-MACHINE INTERFACES</span>. CRAFTING DIGITAL ECOSYSTEMS WITH A CREATIVE SOUL.
+</p> <div class="font-mono text-sm md:text-base opacity-80 max-w-prose space-y-4"> <p>
+&gt; Always looking forward to a creative challenge...<br>
+&gt; Exploring the boundaries between utilitarian design and artistic expression. Currently building tools that I believe are original.
+</p> </div> </div> <div class="md:col-span-3 flex justify-center md:justify-end"> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).load=e;window.dispatchEvent(new Event("astro:load"));})();</script><script>(()=>{var A=Object.defineProperty;var g=(i,o,a)=>o in i?A(i,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):i[o]=a;var d=(i,o,a)=>g(i,typeof o!="symbol"?o+"":o,a);{let i={0:t=>m(t),1:t=>a(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(a(t)),5:t=>new Set(a(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>1/0*t},o=t=>{let[l,e]=t;return l in i?i[l](e):void 0},a=t=>t.map(o),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([l,e])=>[l,o(e)]));class y extends HTMLElement{constructor(){super(...arguments);d(this,"Component");d(this,"hydrator");d(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let c=this.querySelectorAll("astro-slot"),n={},h=this.querySelectorAll("template[data-astro-template]");for(let r of h){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of c){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("name")||"default"]=r.innerHTML)}let p;try{p=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(s+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}let u;await this.hydrator(this)(this.Component,p,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});d(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),c.disconnect(),this.childrenConnectedCallback()},c=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});c.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}async start(){let e=JSON.parse(this.getAttribute("opts")),c=this.getAttribute("client");if(Astro[c]===void 0){window.addEventListener(`astro:${c}`,()=>this.start(),{once:!0});return}try{await Astro[c](async()=>{let n=this.getAttribute("renderer-url"),[h,{default:p}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),u=this.getAttribute("component-export")||"default";if(!u.includes("."))this.Component=h[u];else{this.Component=h;for(let f of u.split("."))this.Component=this.Component[f]}return this.hydrator=p,this.hydrate},e,this)}catch(n){console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`,n)}}attributeChangedCallback(){this.hydrate()}}d(y,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",y)}})();</script><astro-island uid="2xJu7" prefix="r1" component-url="/_astro/SystemCore.DY4zbEBJ.js" component-export="default" renderer-url="/_astro/client.Cx-hwkd2.js" props="{}" ssr client="load" opts="{&quot;name&quot;:&quot;SystemCore&quot;,&quot;value&quot;:true}" await-children><div class="w-48 h-64"><div style="position:relative;width:100%;height:100%;overflow:hidden;pointer-events:auto"><div style="width:100%;height:100%"><canvas style="display:block"></canvas></div></div></div><!--astro:end--></astro-island> </div> </section> <section class="mb-16" id="work"> <div class="border-b border-text-light dark:border-text-dark mb-8 flex justify-between items-end pb-2"> <h2 class="font-display text-3xl md:text-5xl uppercase">Selected_Projects</h2> <span class="font-mono text-xs hidden md:inline-block">/var/www/portfolio/projects</span> </div> <div class="space-y-8"> <div class="group relative grid grid-cols-1 md:grid-cols-12 gap-6 p-4 md:p-6 border border-transparent hover:border-text-light dark:hover:border-text-dark transition-all duration-300 hover:bg-panel-light/30 dark:hover:bg-panel-dark/30"> <div class="md:col-span-1 font-mono text-xs opacity-50 py-1">
+01
+</div> <div class="md:col-span-4"> <h3 class="font-display text-3xl mb-2 group-hover:text-primary transition-colors">PROJECT ONE</h3> <div class="flex flex-wrap gap-2 mb-4"> <span class="text-[10px] border border-current px-1 uppercase">React</span> <span class="text-[10px] border border-current px-1 uppercase">WebGL</span> </div> <p class="text-sm opacity-80 mb-4">
+Placeholder for my cool project.
+</p> <a class="inline-flex items-center text-sm font-bold uppercase hover:underline decoration-primary underline-offset-4" href="/projects/project">
+[ View Case Study ]
+</a> </div> <div class="md:col-span-7 relative bg-gray-200 dark:bg-gray-800 h-64 md:h-80 overflow-hidden border border-text-light dark:border-text-dark"> <div class="absolute inset-4 border border-dashed border-gray-400 dark:border-gray-600"></div> <div class="absolute top-8 left-8 text-xs font-mono">
+&gt; INITIALIZING TRACKING...<br>
+&gt; TARGET ACQUIRED
+</div> <div class="absolute bottom-8 right-8 text-4xl font-display text-primary opacity-50">
+XY-99
+</div> <svg class="absolute inset-0 w-full h-full opacity-30" preserveAspectRatio="none" viewBox="0 0 100 100"> <line stroke="currentColor" stroke-width="0.2" x1="0" x2="100" y1="20" y2="80"></line> <line stroke="currentColor" stroke-width="0.2" x1="0" x2="100" y1="80" y2="20"></line> <circle cx="50" cy="50" fill="none" r="30" stroke="currentColor" stroke-width="0.2"></circle> </svg> </div> </div> <div class="group relative grid grid-cols-1 md:grid-cols-12 gap-6 p-4 md:p-6 border border-transparent hover:border-text-light dark:hover:border-text-dark transition-all duration-300 hover:bg-panel-light/30 dark:hover:bg-panel-dark/30"> <div class="md:col-span-1 font-mono text-xs opacity-50 py-1">
+02
+</div> <div class="md:col-span-4"> <h3 class="font-display text-3xl mb-2 group-hover:text-primary transition-colors">PROJECT TWO</h3> <div class="flex flex-wrap gap-2 mb-4"> <span class="text-[10px] border border-current px-1 uppercase">E-Commerce</span> <span class="text-[10px] border border-current px-1 uppercase">Stripe etc</span> </div> <p class="text-sm opacity-80 mb-4">
+Your usual ECom website.
+</p> <a class="inline-flex items-center text-sm font-bold uppercase hover:underline decoration-primary underline-offset-4" href="/projects/project">
+[ View Case Study ]
+</a> </div> <div class="md:col-span-7 relative bg-[#fcfcfc] dark:bg-[#111] h-64 md:h-80 overflow-hidden border border-text-light dark:border-text-dark flex items-center justify-center"> <div class="bg-white text-black p-6 shadow-xl w-48 font-mono text-xs rotate-[-5deg] transform group-hover:rotate-0 transition-transform duration-500"> <div class="text-center mb-4 font-bold border-b border-black pb-2">RECEIPT #9942</div> <div class="flex justify-between mb-1"><span>COFFEE</span><span>$4.00</span></div> <div class="flex justify-between mb-1"><span>PIE</span><span>$6.50</span></div> <div class="flex justify-between font-bold mt-2 pt-2 border-t border-dashed border-black"><span>TOTAL</span><span>$10.50</span></div> <div class="text-center mt-4 text-[10px]">THANK YOU COME AGAIN</div> </div> </div> </div> </div> <div class="text-center mt-8"> <a class="inline-flex items-center text-sm font-bold uppercase hover:underline decoration-primary underline-offset-4" href="/projects">
+[ VIEW ALL PROJECTS ]
+</a> </div> </section>  <footer class="mt-auto pt-12 border-t border-text-light dark:border-text-dark grid grid-cols-1 md:grid-cols-3 gap-8 text-sm font-mono" id="contact"> <div> <h4 class="font-display text-xl mb-4">TRANSMISSION_OPEN</h4> <p class="mb-4 opacity-70">
+Reach out and lets build something great together.
+</p> <a class="bg-text-light text-background-light dark:bg-text-dark dark:text-background-dark px-4 py-2 inline-block hover:bg-primary hover:text-white transition-colors" href="mailto:hello@kerning.space">
+SEND_MESSAGE()
+</a> </div> <div> <h4 class="font-display text-xl mb-4">COORDINATES</h4> <ul class="space-y-2 opacity-70"> <li><a class="hover:text-primary" href="https://github.com/deep0ctave">[ GITHUB ]</a></li> <li><a class="hover:text-primary" href="https://www.linkedin.com/in/avinash-aldhapati/">[ LINKEDIN ]</a></li> </ul> </div> <div class="md:text-right flex flex-col justify-between"> <div class="w-full h-8 bg-grid-light dark:bg-grid-dark opacity-30 mb-4"></div> <p class="text-[10px] uppercase opacity-50">
+© 2026 Avinash Aldhapati.<br>
+Designed Astro <s>love</s> Astro.
+</p> </div> </footer> </div> <div class="fixed top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-text-light dark:border-text-dark m-2 pointer-events-none"></div> <div class="fixed top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-text-light dark:border-text-dark m-2 pointer-events-none"></div> <div class="fixed bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-text-light dark:border-text-dark m-2 pointer-events-none"></div> <div class="fixed bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-text-light dark:border-text-dark m-2 pointer-events-none"></div> </body></html>
